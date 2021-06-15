@@ -1,1 +1,147 @@
 
+Version 1.1.3 [25-07-2020]
+  - Added new CMS:
+    - Smartstore
+    - Solusquare Commerce Cloud
+    - Spree
+    - Brightspot CMS
+    - Amiro.CMS
+    - Weebly
+    - ekmPowershop
+    - GoDaddy Website Builder
+    - WHMCS
+    - Zen Cart
+    - OpenNemas CMS
+    - IPO CMS
+  - Version detection added for:
+    - Amiro.CMS
+    - GoDaddy Website Builder
+  - Added WordPress Bruteforce via XML-RPC
+  - improved logging for joomla scans
+  - improved logging for WordPress deep scan
+  - Switched to wpvulns.comVersion 1.1.2 [19-05-2019]
+  - Added new CMS:
+    - Proximis Omnichannel
+    - Quick.Cart
+    - RBS Change
+    - Salesforce Commerce Cloud
+    - Sazito
+    - Shopatron
+    - Umbraco
+    - Shoper
+    - Shopery
+    - ShopFA
+    - Shopify
+    - Shoptet
+  - Version detection added for:
+    - Quick.Cart
+    - Oracle ATG Web Commerce
+    - RBS Change
+    - Umbraco
+    - ShopFA
+  - Added `--batch` argument
+  - Added `--ignore-cms` argument
+  - Added `--strict-cms` argument
+  - Added `--skip-scanned` argument
+  - Identify if WordPress detection via source code was false positive
+  - Fixed an issue where cms name and cms url would not be added in the result json
+
+
+
+Version 1.1.1 [01-02-2019]
+  - Added new CMS:
+    - Afosto
+    - Afterbuy
+    - Arastta
+    - BigCommerce
+    - Bigware
+    - Bizweb
+    - Clientexec
+    - CloudCart
+    - ColormeShop
+    - Moodle
+    - ORKIS Ajaris Websuite
+    - Comandia
+    - Commerce Server
+    - Cosmoshop
+    - CS Cart
+    - CubeCart
+    - Al Mubda
+    - Dynamicweb
+    - EC-CUBE
+    - Elcodi
+    - ePages
+    - eZ Publish
+    - Fortune3
+    - PrestaShop
+    - BigTree CMS
+  - Version detection added for:
+    - Magento
+    - Commerce Server
+    - Dynamicweb
+  - Refactored code for Version 1.1.0 [28-08-2018]
+  - Added new CMS:
+    - Advanced Electron Forum
+    - Arc Forum
+    - AspNetForum
+    - Burning Board
+    - Beehive Forum
+    - Discourse
+    - Discuz!
+    - Flarum
+    - FluxBB
+    - FUDforum
+    - IPB Forum
+    - JForum
+    - MercuryBoard
+    - miniBB
+    - mvnForum
+    - MyBB
+    - mwForum
+    - myUPB
+    - NodeBB
+    - NoNonsense Forum
+    - Phorum
+    - PunBB
+    - SMF
+    - UBB.threads
+    - Vanilla
+    - uKnowva
+    - XenForo
+    - XMB
+    - YaBB
+    - YAF
+    - Yazd
+  - Version detection added for:
+    - Advanced Electron Forum
+    - AspNetForum
+    - Burning Board
+    - Beehive Forum
+    - Discourse
+    - Discuz!
+    - FUDforum
+    - JForum
+    - MercuryBoard
+    - miniBB
+    - mvnForum
+    - MyBB
+    - myUPB
+    - NodeBB
+    - PunBB
+    - SMF
+    - UBB.threads
+    - Vanilla
+    - uKnowva
+    - XMB
+    - YaBB
+    - YAF
+  - New detection methods added for:
+    - phpwind
+  - Fixed an issue with log (#28)
+ cms
+  - Added `--googlebot` option to use googlebot user agent
+  - Added `--follow-redirect` and `--no-redirect` arguments
+
+
+
+
